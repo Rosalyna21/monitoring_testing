@@ -1,4 +1,4 @@
-from monitoring_testing import pandas
+import pandas
 
-p =Panda("kilo",15)
+p =pandas("kilo",15)
 print(p)
