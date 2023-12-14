@@ -1,7 +1,6 @@
 import unittest
-import sys
-sys.path.append("..")
-import Panda
+
+from panda import Panda
 
 class TestPanda(unittest.TestCase):
     def test_panda_is_created(self):
