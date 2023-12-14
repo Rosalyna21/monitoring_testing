@@ -1,7 +1,7 @@
 import unittest
 import sys
 sys.path.append("..")
-from monitoring_testing import pandas
+import Panda
 
 class TestPanda(unittest.TestCase):
     def test_panda_is_created(self):
